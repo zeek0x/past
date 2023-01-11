@@ -1,2 +1,56 @@
 # past
 PAST(Practical Algorithm Skill Test) の練習レポジトリ
+
+## 環境構築
+
+- [`oj`](https://github.com/online-judge-tools/oj) のインストール
+- [`atcoder-cli`](https://github.com/Tatamo/atcoder-cli) のインストール
+
+```console
+oj login https://atcoder.jp/contests
+acc login
+cd `acc config-dir`
+mkdir py
+touch main.py template.json
+
+# template.json に書き込む
+{
+  "task":{
+    "program": ["main.py"],
+    "submit": "main.py"
+  }
+}
+
+alias test='oj t -c "python3 ./main.py" -d ./tests/'
+```
+
+## 実行例
+
+```console
+$ acc new past202004-openx
+past202004-open/contest.acc.json created.
+create project of 第二回 アルゴリズム実技検定 過去問
+? select tasks (Press <space> to select, <a> to toggle all, <i> to invert selection)
+❯◉ A Elevator
+ ◯ B Plurality Voting
+ ◯ C Landslide
+ ◯ D String Match
+ ◯ E Permutation
+ ◯ F Tasking
+ ◯ G String Query
+
+...
+
+$ cd past202004-open/b/
+$ test
+[INFO] online-judge-tools 11.5.1 (+ online-judge-api-client 10.10.1)
+[INFO] 4 cases found
+[WARNING] GNU time is not available: gtime
+[HINT] You can install GNU time with: $ brew install gnu-time
+
+[INFO] sample-1
+[INFO] time: 0.023990 sec
+[SUCCESS] AC
+...
+$ acc s
+```
