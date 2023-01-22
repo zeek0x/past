@@ -13,7 +13,7 @@ cd `acc config-dir`
 mkdir py
 touch main.py template.json
 
-# template.json に書き込む
+# 以下を template.json に書き込む
 {
   "task":{
     "program": ["main.py"],
@@ -21,7 +21,9 @@ touch main.py template.json
   }
 }
 
-alias test='oj t -c "python3 ./main.py" -d ./tests/'
+# 以下を ~/.zshrc などに書き込む
+alias t='oj t -c "python3 ./main.py" -d ./tests/'
+alias s='acc submit -s -- -y'
 ```
 
 ## 実行例
@@ -42,7 +44,7 @@ create project of 第二回 アルゴリズム実技検定 過去問
 ...
 
 $ cd past202004-open/b/
-$ test
+$ t
 [INFO] online-judge-tools 11.5.1 (+ online-judge-api-client 10.10.1)
 [INFO] 4 cases found
 [WARNING] GNU time is not available: gtime
@@ -52,5 +54,5 @@ $ test
 [INFO] time: 0.023990 sec
 [SUCCESS] AC
 ...
-$ acc s
+$ s
 ```
