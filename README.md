@@ -23,7 +23,7 @@ touch main.py template.json
 
 # 以下を ~/.zshrc などに書き込む
 alias t='oj t -c "python3 ./main.py" -d ./tests/'
-alias s='acc submit -s -- -y'
+alias s='acc s --skip-filename -- --guess-python-interpreter pypy'
 ```
 
 ## 実行例
