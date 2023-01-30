@@ -31,13 +31,23 @@
       "id": "dp_c",
       "label": "C",
       "title": "Vacation",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_c"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "dp_d",
       "label": "D",
       "title": "Knapsack 1",
-      "url": "https://atcoder.jp/contests/dp/tasks/dp_d"
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "dp_e",
