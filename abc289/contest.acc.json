@@ -32,7 +32,12 @@
       "id": "abc289_d",
       "label": "D",
       "title": "Step Up Robot",
-      "url": "https://atcoder.jp/contests/abc289/tasks/abc289_d"
+      "url": "https://atcoder.jp/contests/abc289/tasks/abc289_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "abc289_e",
