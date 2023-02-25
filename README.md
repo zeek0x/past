@@ -21,6 +21,7 @@ touch main.py template.json
   }
 }
 
+acc config default-template
 # 以下を ~/.zshrc などに書き込む
 alias t='oj t -c "python3 ./main.py" -d ./tests/'
 alias s='acc s --skip-filename -- --guess-python-interpreter pypy'
