@@ -42,7 +42,12 @@
       "id": "typical_algorithm_d",
       "label": "D",
       "title": "単一始点最短経路問題",
-      "url": "https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_d"
+      "url": "https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "typical_algorithm_e",
