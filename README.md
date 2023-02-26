@@ -10,7 +10,7 @@ PAST(Practical Algorithm Skill Test) の練習レポジトリ
 oj login https://atcoder.jp/contests
 acc login
 cd `acc config-dir`
-mkdir py
+mkdir py && cd py
 touch main.py template.json
 
 # 以下を template.json に書き込む
@@ -24,7 +24,8 @@ touch main.py template.json
 acc config default-template
 # 以下を ~/.zshrc などに書き込む
 alias t='oj t -c "python3 ./main.py" -d ./tests/'
-alias s='acc s --skip-filename -- --guess-python-interpreter pypy'
+alias s='acc s --skip-filename -- -y --guess-python-interpreter pypy'
+alias ts='t && s'
 ```
 
 ## 実行例
