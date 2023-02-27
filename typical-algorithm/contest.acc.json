@@ -53,7 +53,12 @@
       "id": "typical_algorithm_e",
       "label": "E",
       "title": "全点対最短経路問題",
-      "url": "https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_e"
+      "url": "https://atcoder.jp/contests/typical-algorithm/tasks/typical_algorithm_e",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "typical_algorithm_f",
