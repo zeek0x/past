@@ -65,7 +65,12 @@
       "id": "past202004_g",
       "label": "G",
       "title": "String Query",
-      "url": "https://atcoder.jp/contests/past202004-open/tasks/past202004_g"
+      "url": "https://atcoder.jp/contests/past202004-open/tasks/past202004_g",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "past202004_h",
