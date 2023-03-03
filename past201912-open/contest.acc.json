@@ -94,7 +94,12 @@
       "id": "past201912_k",
       "label": "K",
       "title": "Conglomerate",
-      "url": "https://atcoder.jp/contests/past201912-open/tasks/past201912_k"
+      "url": "https://atcoder.jp/contests/past201912-open/tasks/past201912_k",
+      "directory": {
+        "path": "k",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "past201912_l",
