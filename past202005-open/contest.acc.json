@@ -101,7 +101,12 @@
       "id": "past202005_m",
       "label": "M",
       "title": "Real Traveling Salesman",
-      "url": "https://atcoder.jp/contests/past202005-open/tasks/past202005_m"
+      "url": "https://atcoder.jp/contests/past202005-open/tasks/past202005_m",
+      "directory": {
+        "path": "m",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "past202005_n",
