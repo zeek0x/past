@@ -105,7 +105,12 @@
       "id": "past201912_l",
       "label": "L",
       "title": "Gradation",
-      "url": "https://atcoder.jp/contests/past201912-open/tasks/past201912_l"
+      "url": "https://atcoder.jp/contests/past201912-open/tasks/past201912_l",
+      "directory": {
+        "path": "l",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "past201912_m",
