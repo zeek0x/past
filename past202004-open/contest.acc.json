@@ -99,7 +99,12 @@
       "id": "past202004_k",
       "label": "K",
       "title": "Parentheses",
-      "url": "https://atcoder.jp/contests/past202004-open/tasks/past202004_k"
+      "url": "https://atcoder.jp/contests/past202004-open/tasks/past202004_k",
+      "directory": {
+        "path": "k",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "past202004_l",
