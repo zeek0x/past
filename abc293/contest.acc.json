@@ -32,7 +32,12 @@
       "id": "abc293_d",
       "label": "D",
       "title": "Tying Rope",
-      "url": "https://atcoder.jp/contests/abc293/tasks/abc293_d"
+      "url": "https://atcoder.jp/contests/abc293/tasks/abc293_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "abc293_e",
