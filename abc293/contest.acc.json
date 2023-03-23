@@ -9,13 +9,23 @@
       "id": "abc293_a",
       "label": "A",
       "title": "Swap Odd and Even",
-      "url": "https://atcoder.jp/contests/abc293/tasks/abc293_a"
+      "url": "https://atcoder.jp/contests/abc293/tasks/abc293_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "abc293_b",
       "label": "B",
       "title": "Call the ID Number",
-      "url": "https://atcoder.jp/contests/abc293/tasks/abc293_b"
+      "url": "https://atcoder.jp/contests/abc293/tasks/abc293_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.py"
+      }
     },
     {
       "id": "abc293_c",
